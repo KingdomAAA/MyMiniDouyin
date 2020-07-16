@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/rl1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv1"
+            android:text="或者"
+            android:layout_centerInParent="true"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:id="@+id/btn1"
+            android:layout_toLeftOf="@+id/tv1"
+            android:text="选择一张封面图"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="70dp"
+            android:layout_marginRight="40dp"></Button>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_toRightOf="@+id/tv1"
+            android:id="@+id/btn2"
+            android:text="拍摄一张封面图"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="70dp"
+            android:layout_marginLeft="40dp"></Button>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/rl2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv2"
+            android:text="或者"
+            android:layout_centerInParent="true"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_toLeftOf="@+id/tv2"
+            android:text="选择一段视频"
+            android:id="@+id/btn3"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="70dp"
+            android:layout_marginRight="40dp"></Button>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_toRightOf="@+id/tv2"
+            android:id="@+id/btn4"
+            android:text="录制一段视频"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="70dp"
+            android:layout_marginLeft="40dp"></Button>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn5"
+            android:text="上传！"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+</LinearLayout>
